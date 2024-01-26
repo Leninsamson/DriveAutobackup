@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        cMES Drive
+    </title>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+            integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+            crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="~/Content/index.css">
+    <script src="~/Scripts/Index.js"></script>
+</head>
+
+<body>
+
+    <!--Main Nav  -->
+    <nav id="Mainnav">
+        <div id="cMEStitle"><h1>cMES Drive</h1></div>
+        <a href="#">Home</a>
+        <a href="#">User</a>
+        <a href="#">About</a>
+
+    </nav>
+
+    <!--Factory Nav -->
+    <nav id=factnav>
+
+        <button id="factoryBtn">Factory ▼</button>
+        <span class="dropdown-content">
+            <!-- Dropdown content here -->
+        </span>
+    </nav>
+    <br />
+    <button id="AutoBackup">AutoBackup Console</button>
+
+    <!-- Main Equipment tree-->
+    <div id="collapseDVR3" class="panel-collapse collapse in">
+        <div class="tree ">
+            <ul>
+                <li class="parent_li">
+
+                </li>
+            </ul>
+        </div>
+    </div>
+    <marquee id="flashmsg">Backup and restore in Flash</marquee>
+    <span id="Salcomp">  <img src="~/Resources/Salcomp_Vector.png" width="200" alt="Salcomp">   </span>
+
+
+
+
+
+</body>
+</html>
